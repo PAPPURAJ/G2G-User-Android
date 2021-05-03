@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fragmentEmployee_ProfileIv"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/profile"
+            android:layout_gravity="center"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="5dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_nameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_fatherNameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_motherNameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_contactTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_nidTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_mailTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_preAddTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_perAddTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_cvLinkTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_siteNameTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_siteIDTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/viewEmployeeDetails_typeTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/profileFragDriveBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/drive"/>
+
+            <Button
+                android:id="@+id/profileFragMailBtn"
+                android:layout_margin="20dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/mail"/>
+            <Button
+                android:id="@+id/profileFragCallBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/call"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

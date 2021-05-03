@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="15dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+
+        <TextView
+            android:id="@+id/singleEmployeeCosting_costNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cost name"/>
+
+        <TextView
+            android:id="@+id/singleEmployeeCosting_quantityTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity"/>
+
+        <TextView
+            android:id="@+id/singleEmployeeCosting_paymentTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment"/>
+
+        <TextView
+            android:id="@+id/singleEmployeeCosting_typeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type"/>
+
+        <TextView
+            android:id="@+id/singleEmployeeCosting_timeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time"/>
+
+        <TextView
+            android:id="@+id/singleEmployeeCosting_dateTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#66483767</item>
+        <item name="colorAccent">#E91E63</item>
+
+        <item name="android:textColor">#C6272424</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="NoTitle" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#202020</item>
+        <item name="colorPrimaryDark">#202020</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#C6272424</item>
+    </style>
+
+    <style name="NormalNoTitle" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#CA0D0D</item>
+        <item name="colorPrimaryDark">#E60808</item>
+        <item name="colorAccent">#E91E63</item>
+        <item name="android:textColor">#C6272424</item>
+    </style>
+
+</resources>
